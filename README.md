@@ -1,4 +1,4 @@
-﻿# jax-rs-jwt-authentication
+﻿# JAX-RS-JWT-AUTHENTICATION
 
 # Run project:
 
