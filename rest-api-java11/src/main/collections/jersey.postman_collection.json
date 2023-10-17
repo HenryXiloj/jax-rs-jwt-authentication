@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "30caa103-47d7-44d1-8b82-3acb2efe0106",
+		"name": "jersey",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3322369"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/rest-api/api/jwt/generate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/rest-api/api/jwt/generate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rest-api",
+						"api",
+						"jwt",
+						"generate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/rest-api/api/hello",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJleGFtcGxlVXNlciIsImlhdCI6MTY5NjUyNjQ5MywiZXhwIjoxNjk2NTMwMDkzfQ.EUySAp796exphgIhoQGZYyva4GjgiYWUS0vMAVyHJxI",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJleGFtcGxlVXNlciIsImlhdCI6MTY5NjU0NTU4MCwiZXhwIjoxNjk2NTQ5MTgwfQ.KPsXhT2XYmGstrgDfZcE9XNYu2T1mbCCjXaCkay4OhA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/rest-api/api/hello",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rest-api",
+						"api",
+						"hello"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
